@@ -1,8 +1,5 @@
-# Tahsin Shaba — Creator Portfolio
+# Tahsin Shaba — Vercel deploy
 
-Static site: no build step, no dependencies.
-
-- **Edit content / links:** `js/data.js` (TikTok URL is empty on purpose — paste it there)
-- **Swap images:** replace files in `images/` (keep names or update `data.js`)
-- **Preview:** open `index.html` (or use VS Code "Live Server")
-- **Deploy:** push to GitHub → import in the Vercel (Framework: Other, no build command, output = root), or drag the folder into vercel.com/new
+Only ONE file is needed: `index.html` (CSS, JS and images are all inside it).
+Upload it to the ROOT of the GitHub repo (replace old files), then Vercel -> Framework: Other, no build command.
+To edit text/links: open index.html and search for `window.SITE` (top of the script).
